@@ -48,6 +48,11 @@ table {
 .wrapper {
   max-width: 420px;
   margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: auto;
   margin-right: auto; }
   .wrapper:after {
     content: " ";
@@ -64,6 +69,26 @@ table {
   margin: 0;
   text-align: center; }
 
+.topLetter {
+  margin-left: 1.8em;
+  letter-spacing: 1em;
+  margin-bottom: -40px; }
+  .topLetter p {
+    font-size: 2em;
+    margin-bottom: -0.5em; }
+
+.leftNumber {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em; }
+  .leftNumber p {
+    font-size: 2em;
+    padding-bottom: .68em; }
+
+.flaticon-diamond {
+  padding-bottom: -1000px; }
+
 .black {
   background-color: #003399; }
 
@@ -72,5 +97,8 @@ table {
 
 p {
   color: darkgrey; }
+
+.purple {
+  color: purple; }
 
 /*# sourceMappingURL=styles.css.map */
